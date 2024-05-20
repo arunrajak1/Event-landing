@@ -1,0 +1,89 @@
+
+.btn-join{
+  border-radius: 20px;
+  
+}
+
+.animate-text {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes slideToRight {
+ 0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideToLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.animate-slide-to-right {
+  animation: slideToRight 0.5s ease-out forwards;
+}
+
+.animate-slide-to-left {
+  animation: slideToLeft 0.5s ease-out forwards;
+}
+/* 
+@keyframes vertical-scroll {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.animate-scroll {
+  display: inline-block;
+  white-space: nowrap;
+  animation: vertical-scroll 20s linear infinite;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+} */
+
+
+
+/* Add these styles to your App.css or a separate CSS file */
+
+/* Media query for small screens */
+/* @media (max-width: 640px) {
+  .text-8xl {
+    font-size: 4rem;
+  }
+
+  .slider-wrapper {
+    width: 100%;
+  }
+
+  .slider-wrapper img {
+    height: 200px;
+  }
+
+  .event-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .flex-col-items-center {
+    align-items: center;
+  }
+} */
